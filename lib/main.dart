@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Image.asset('images/kawaii.webp'),
           Center(
             child:ElevatedButton(
-              child: Text('very kawaii monika'),
+              child: Text('kawaii monika'),
               onPressed:  () {
                 final result =  Navigator.push(
                   context,
